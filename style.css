@@ -13,3 +13,44 @@
 }
 
 /* your code */
+body{
+  background-color: #1e3932;
+  padding: 5rem;
+
+  
+}
+nav > h1 {
+  color: #f2f0eb
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3.8rem 0 3.8rem;
+  font-size: 2.5rem;
+
+}
+
+header {
+  background-color: gray;
+  color: #27251F;
+  padding: 20px;
+  font-size: 2rem;
+  margin: -30px 3rem 1% 3rem;
+  border-radius: 5px;
+}
+
+.city-list {
+  border: 2px solid #d4e9e2;
+  padding: 20px;
+  margin: 1rem 3rem 0 3rem;
+  border-radius: 5px;
+}
+.city-item {
+  background-color: #00754a;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 600;
+  
+}
